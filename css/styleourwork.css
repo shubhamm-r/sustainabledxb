@@ -193,7 +193,7 @@ opacity: 1 !important;
 }
 
 .heading{
-  background-image: url(../our work/ourworkbg.jpg);
+  background-image: url("../our work/ourworkbg.jpg");
   background-size: cover;
     background-repeat: no-repeat;
     width:100vw;
