@@ -241,6 +241,7 @@ table {
 td {
   margin: auto;
   width: 100%;
+  padding:1vw;
 }
 
 .sdgtitle {
