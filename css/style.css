@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  min-height: 100%;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  font-family: 'Poppins';
+  background-color: rgba(31, 117, 39, 1);
+  position: sticky;
+  top: 0;
+
+
+}
+
+header .inner {
+  width: 100%;
+  /* This is the inner width of the content inside of your header (80%, etc) */
+  height: 100%;
+  display: block;
+  margin: auto;
+  background-color: rgba(31, 117, 39, 0.795)
+}
+
+header .logo {
+  display: table;
+  height: 10% auto;
+  float: left;
+  vertical-align: middle;
+  margin: auto;
+
+}
+
+header .logo div {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+header .logo img {
+  height: 90px;
+  vertical-align: middle;
+  object-fit: scale-down;
+  margin: 0 !important;
+
+}
+
+p1 {
+  color: white;
+  font-size: 2.0vw;
+  vertical-align: middle !important;
+  margin: auto;
+  font-family: 'Poppins';
+
+}
+
+header nav {
+  float: right;
+  height: 100%;
+  text-decoration: none;
+}
+
+header nav li {
+  display: table;
+  height: 100%;
+  float: left;
+  margin-right: 2vw;
+  font-size: 1.5vw;
+  text-decoration: none;
+}
+
+header nav li :hover{
+  color: rgb(5, 5, 5);
+
+}
+
+header nav li:last-of-type {
+  padding-right: 1vw auto;
+}
+
+header nav span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+header nav a {
+  color: #f8f8f8;
+  text-decoration: none;
+}
+
+
+
+
+
+/*footer design*/
+.footer-basic {
+  background-color: #221f1f;
+  color: #f1f1f5;
+  position: relative;
+  height: 120px;
+  margin-top: -120px;
+  clear: both;
+  width: 100%;
+
+}
+
+
+.footer-basic ul {
+  padding: 10px;
+  list-style: none;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.0;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 5px;
+  size: 5px;
+
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+.footer-basic .social>a {
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 5px;
+  color: inherit;
+  opacity: 0.75;
+  box-align: bottom;
+
+}
+
+.footer-basic .social>a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 0px;
+  text-align: center;
+  font-size: 10px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+
+body {
+
+  height: 100%vh;
+  width: 100%vw;
+
+
+
+}
+
+
+.background {
+  overflow: auto;
+  padding-bottom: 120px;
+
+}
+
+.background {
+  background-image: url(../home/indexbg2.jpg);
+  height: 120vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+
+}
+
+.main {
+  font-size: 5vw;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: 500;
+  -webkit-text-stroke: 2px black;
+
+}
+
+.sub {
+  font-size: 3vw;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  -webkit-text-stroke: 1px black;
+  font-weight: 500;
+
+}
+
+.button {
+  font-size: 3vw;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  background-color: green;
+  font-family: 'Poppins';
+  border: none;
+  cursor: pointer;
+  padding: 5px 5px 5px 5px;
+  box-shadow: 2px 2px black;
+  
+}
+
+.button:hover {
+  background-color: rgb(18, 106, 28);
+}
+
+.button:active {
+  transform: translateY(-4px);
+}
+
+.word {
+  margin: auto;
+  padding-top: 20vh;
+  text-align: center;
+
+}
